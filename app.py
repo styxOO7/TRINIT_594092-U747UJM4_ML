@@ -1,6 +1,6 @@
 
-import pandas as pd
-import numpy as np
+# import pandas as pd
+# import numpy as np
 
 import pickle
 import streamlit as st
@@ -199,14 +199,14 @@ def weather_fetch(city_name):
         return None
 
 # import model:
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
-from sklearn.metrics import classification_report
-from sklearn import metrics
-from sklearn import tree
-from sklearn.ensemble import RandomForestClassifier
+# import pandas as pd
+# import numpy as np
+# import matplotlib.pyplot as plt
+# import seaborn as sns
+# from sklearn.metrics import classification_report
+# from sklearn import metrics
+# from sklearn import tree
+# from sklearn.ensemble import RandomForestClassifier
 model = pickle.load(open('RandomForest.pkl','rb'))
 
 
